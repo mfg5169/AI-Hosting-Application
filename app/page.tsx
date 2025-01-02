@@ -1,3 +1,5 @@
+"use client"
+
 import { useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 
@@ -5,7 +7,7 @@ export default function Home() {
   useEffect(() => {
     // Redirect to a different URL automatically after 2 seconds
     setTimeout(() => {
-      window.location.href = '/new-page'; // replace with the desired URL
+      window.location.href = '/dashboard'; // replace with the desired URL
     }, 2000); // you can adjust the time (in milliseconds)
   }, []);
 
